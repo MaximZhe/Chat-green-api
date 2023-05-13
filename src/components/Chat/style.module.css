@@ -1,0 +1,26 @@
+.main{
+    position: relative;
+}
+.main__warpper{
+
+}
+.main__modal{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: 'background.paper';
+  border: 2px solid #000;
+  padding: 5px;
+}
+.modal__input > input{
+    color:#FFFFFF;
+}
+.main__panel > button> svg > path {
+    fill:#FFFFFF;
+}
+.main__panel > svg:nth-child(2){
+    margin-left:auto;
+    margin-right: 0;
+}

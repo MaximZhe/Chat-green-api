@@ -65,9 +65,9 @@ const Login = () => {
             margin="normal"
             required
             fullWidth
-            name="apiTokenInstance)"
-            label="apiTokenInstance)"
-            id="apiTokenInstance)"
+            name="apiTokenInstance"
+            label="apiTokenInstance"
+            id="apiTokenInstance"
             type="text"
           />
           <Button
