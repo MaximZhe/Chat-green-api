@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext, useEffect, useState} from "react";
 import {
   Box,
   Button,
@@ -9,19 +9,22 @@ import {
 import CssBaseline from "@mui/material/CssBaseline";
 import axios from "axios"
 import { userContext } from "../../context";
+
+
 const Login = () => {
+
+    const {user, setUser,setIsUser} = useContext(userContext)
+      
 
     
 
-    const [user, setUser] = useState({id:'', token:''})
-    const {setIsUser} = useContext(userContext)
-      
         async function fetchDataWeather () {
           try{
             const response = await axios.get(`https://api.green-api.com/waInstance${user.id}/getSettings/${user.token}`)
             console.log(response.data)
             if(response){
-                setIsUser(true)
+                setIsUser(true);
+                
             }else{
                 setIsUser(false)
             }

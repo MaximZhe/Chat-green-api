@@ -5,10 +5,13 @@ import { userContext } from './context';
 function App() {
 
   const [isUser, setIsUser] = useState(false);
+  const [user, setUser] = useState({id:'', token:''})
   return (
    <userContext.Provider value={{
       isUser,
-      setIsUser
+      setIsUser,
+      user,
+      setUser
    }}>
       <>
     <AppRoute/>

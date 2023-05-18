@@ -17,10 +17,29 @@
 .modal__input > input{
     color:#FFFFFF;
 }
+.main__panel{
+    justify-content: space-between;
+}
 .main__panel > button> svg > path {
     fill:#FFFFFF;
 }
 .main__panel > svg:nth-child(2){
     margin-left:auto;
     margin-right: 0;
+}
+.main__text{
+    font-size:16px;
+    line-height: 1;
+    color:#FFFFFF;
+}
+.main__icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.main__icons > button > svg > path {
+    fill:#FFFFFF;
+}
+.main__icons > button > svg {
+    font-size: 25px;
 }
