@@ -57,19 +57,14 @@ input[name="message"]{
     font-size: 25px;
 }
 .messages{
-    height: 40vh;
-    overflow-y: scroll;
+    min-height: 40vh;
     width: 100%;
     padding: 10px;
     border: 1px solid #FFFFFF;
     border-radius: 5px;
     margin-top: 15px;
-    max-width: 90%;
 }
 .messages__item{
     color:#FFFFFF;
     font-size: 16px;
-}
-.message__form{
-    max-width: 90%;
 }
