@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Chat-green-api/static/css/main.97f4487f.css",
+    "main.js": "/Chat-green-api/static/js/main.1396c4e2.js",
+    "index.html": "/Chat-green-api/index.html",
+    "main.97f4487f.css.map": "/Chat-green-api/static/css/main.97f4487f.css.map",
+    "main.1396c4e2.js.map": "/Chat-green-api/static/js/main.1396c4e2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97f4487f.css",
+    "static/js/main.1396c4e2.js"
+  ]
+}
